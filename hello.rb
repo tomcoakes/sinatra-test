@@ -1,6 +1,7 @@
 require 'sinatra'
 
 get '/' do
+  @name = %w(Amigo Nilay Ralph).sample
   erb :index
 end
 
